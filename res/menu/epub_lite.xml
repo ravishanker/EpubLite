@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item 
+        android:id="@+id/help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:showAsAction="never"
+        android:title="@string/help"/>
+    <item 
+        android:id="@+id/about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:showAsAction="never"
+        android:title="@string/about"/>
+    <item 
+        android:id="@+id/settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="never"
+        android:title="@string/settings"/>
+    <item 
+        android:id="@+id/notes"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/notes"/>
+    <item 
+        android:id="@+id/share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/share"/>
+    <item 
+        android:id="@+id/delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/delete"/>
+    <item 
+        android:id="@+id/update"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/download_update"/>
+    
+
+</menu>
